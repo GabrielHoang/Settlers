@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<VBox prefHeight="492.0" prefWidth="890.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.WindowController">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="479.0" prefWidth="890.0" VBox.vgrow="ALWAYS">
+         <children>
+            <TextArea fx:id="events2" layoutX="465.0" layoutY="265.0" prefHeight="184.0" prefWidth="394.0" />
+            <TextArea fx:id="currentState1" layoutX="31.0" layoutY="79.0" prefHeight="114.0" prefWidth="394.0" />
+            <TextArea fx:id="currentState2" layoutX="465.0" layoutY="79.0" prefHeight="114.0" prefWidth="394.0" />
+            <TextArea fx:id="events1" layoutX="31.0" layoutY="265.0" prefHeight="184.0" prefWidth="394.0" />
+            <Text layoutX="31.0" layoutY="248.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Currently happened" textAlignment="CENTER" wrappingWidth="393.9999965764582" />
+            <Text layoutX="465.0" layoutY="248.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Currently happened" textAlignment="CENTER" wrappingWidth="393.9999965764582" />
+            <Text layoutX="31.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Current state of kingdom" textAlignment="CENTER" wrappingWidth="393.9999965764582" />
+            <Text layoutX="465.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Current state of kingdom" textAlignment="CENTER" wrappingWidth="393.9999965764582" />
+         </children>
+    </AnchorPane>
+  </children>
+</VBox>
